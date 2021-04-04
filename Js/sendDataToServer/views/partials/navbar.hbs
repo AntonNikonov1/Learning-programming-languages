@@ -1,0 +1,19 @@
+<nav class="blue darken-4">
+    <div class="nav-wrapper">
+        <a href="/" class="brand-logo">Logo</a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+
+            {{#if isIndex}}
+                <li class="active"><a href="/">People list</a></li>
+            {{else}}
+                <li><a href="/">People list</a></li>
+            {{/if}}
+
+            {{#if isCreate}}
+                <li class="active"><a href="/create">Create people list</a></li>
+            {{else}}
+               <li><a href="/create">Create people list</a></li>
+            {{/if}}
+      </ul>
+    </div>
+</nav>
