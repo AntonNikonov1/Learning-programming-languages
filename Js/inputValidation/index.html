@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <style>
+    .form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+      width: 100vw;
+      height: 100vh;
+    }
+
+    .form input {
+      display: block;
+      min-width: 300px;
+
+      padding: 10px 15px;
+      margin-top: 30px;
+    }
+
+    .form button {
+      width: 334px;
+      padding: 10px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <section>
+    <div class="container">
+      <form class="form">
+        <input 
+          type="text" 
+          placeholder="First name"
+          id="firstName"
+        />
+        <input 
+          type="text" 
+          placeholder="Last name"
+          id="lastName"
+        />
+        <input 
+          type="password" 
+          placeholder="Password"
+          id="password"
+        />
+        <input 
+          type="email" 
+          placeholder="E-mail"
+          id="email"
+        />
+        <input 
+          type="text" 
+          placeholder="Phone"
+          id="phone"
+        />
+
+        <button id="submit">Sign Up</button>
+      </form>
+    </div>
+  </section>
+
+  <script src="./index.js"></script>
+</body>
+</html>
